@@ -1,0 +1,318 @@
+<!doctype html>
+<html lang="sv">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ægir · Full kontroll över din båt</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Playfair+Display:ital,wght@1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="aegir-presentation.css">
+  <link rel="stylesheet" href="aegir-deck-theme.css">
+</head>
+<body>
+  <video id="waterBackground" class="water-background" autoplay muted loop playsinline aria-hidden="true">
+    <source src="https://3kkb5uvxojhzy.ok.kimi.link/videos/nature-ocean.mp4" type="video/mp4">
+  </video>
+  <div class="veil" aria-hidden="true"></div>
+  <div class="aegir-scene" aria-hidden="true"></div>
+  <div class="aegir-water-shimmer" aria-hidden="true"></div>
+  <div class="aegir-rocks" aria-hidden="true"></div>
+  <div class="aegir-vignette" aria-hidden="true"></div>
+  <div class="aegir-scanlines" aria-hidden="true"></div>
+  <div class="aegir-hud-line-left" aria-hidden="true"></div>
+  <div class="aegir-corner aegir-corner-tl" aria-hidden="true"></div>
+  <div class="aegir-corner aegir-corner-tr" aria-hidden="true"></div>
+  <header class="aegir-topbar" aria-hidden="true">
+    <img class="aegir-mark" src="Aegir_Emblem.png" alt="">
+    <span class="aegir-brand">Ægir</span>
+    <span class="aegir-divider"></span>
+    <span class="aegir-tagline">Maritim IoT-plattform</span>
+  </header>
+  <div class="aegir-coords" aria-hidden="true"><span>SEA</span> 59.3293 N<br><span>LINK</span> ACTIVE</div>
+
+  <main class="slides" aria-live="polite">
+    <section class="slide active" data-title="Titel">
+      <div class="eyebrow">Maritim IoT-plattform</div>
+      <div class="hero hero-with-emblem">
+        <div class="hero-copy">
+          <h1>Ægir</h1>
+          <p class="lead">Full kontroll över din båt. Var du än är.</p>
+          <p>Smart övervakning som varnar dig innan små problem blir stora.</p>
+        </div>
+        <div class="emblem-wrap" aria-hidden="true">
+          <img class="hero-emblem" src="Aegir_Emblem.png" alt="">
+        </div>
+      </div>
+      <div class="meta"><span>01 · Titel</span><div class="progress"></div></div>
+    </section>
+
+    <section class="slide center-content company-form-slide" data-title="Företagsform">
+      <div class="eyebrow">Företagsform</div>
+      <h2>Ægir drivs som aktiebolag</h2>
+      <p class="subtitle">Aktiebolagsformen ger oss en tydlig och professionell struktur för avtal, partnerskap och framtida tillväxt.</p>
+      <div class="grid">
+        <article class="card"><h3>Tydlig struktur</h3><p>En stabil grund för verksamhetens ansvar, ekonomi och långsiktiga utveckling.</p></article>
+        <article class="card"><h3>Professionella avtal</h3><p>En lämplig bolagsform för kundrelationer, leverantörsavtal och strategiska partnerskap.</p></article>
+        <article class="card"><h3>Skalbarhet</h3><p>Bättre förutsättningar för expansion, investeringar och nya affärsmöjligheter.</p></article>
+      </div>
+      <div class="meta"><span>02 · Företagsform</span><div class="progress"></div></div>
+    </section>
+
+    <section class="slide center-content" data-title="Problemet">
+      <div class="eyebrow">Problemet</div>
+      <h2>Små förändringar kan snabbt bli dyra problem</h2>
+      <div class="grid four">
+        <article class="card status"><span class="icon">≈</span><h3>Fukt och vatteninträngning</h3></article>
+        <article class="card status"><span class="icon">▰</span><h3>Låg batterinivå</h3></article>
+        <article class="card status"><span class="icon">⌁</span><h3>Ovanliga rörelser</h3></article>
+        <article class="card status"><span class="icon">☁</span><h3>Förändrade väderförhållanden</h3></article>
+      </div>
+      <div class="meta"><span>03 · Problemet</span><div class="progress"></div></div>
+    </section>
+
+    <section class="slide center-content" data-title="Varför problemet spelar roll">
+      <div class="eyebrow">Varför det spelar roll</div>
+      <h2>När problemet upptäcks sent blir åtgärden dyr</h2>
+      <div class="flow">
+        <div>Avvikelse</div><span>→</span><div>Sen upptäckt</div><span>→</span><div>Skada</div><span>→</span><div>Reparation</div><span>→</span><div>Onödig kostnad</div>
+      </div>
+      <div class="meta"><span>04 · Konsekvens</span><div class="progress"></div></div>
+    </section>
+
+    <section class="slide consulting-slide" data-title="Konsulttjänster">
+      <div class="eyebrow">Konsulttjänster</div>
+      <h2>Från behov till långsiktig lösning</h2>
+      <div class="flow consulting-flow">
+        <div>Behovsanalys</div><span>→</span><div>Lösningsdesign</div><span>→</span><div>Installation</div><span>→</span><div>Driftsättning</div><span>→</span><div>Uppföljning</div>
+      </div>
+      <div class="meta"><span>05 · Konsulttjänster</span><div class="progress"></div></div>
+    </section>
+
+    <section class="slide solution-combined" data-title="Så fungerar Ægir">
+      <div class="eyebrow">Så fungerar Ægir</div>
+      <h2>Från sensor till rätt åtgärd</h2>
+      <div class="flow big solution-summary">
+        <div>Sensorer</div><span>→</span><div>Dashboard</div><span>→</span><div>Automatiska varningar</div>
+      </div>
+      <ol class="steps">
+        <li><strong>Sensorer mäter</strong><span>fukt, temperatur, nivåer och rörelser</span></li>
+        <li><strong>Data skickas digitalt</strong><span>till Ægirs applikation</span></li>
+        <li><strong>Dashboarden ger överblick</strong><span>status samlas på ett ställe</span></li>
+        <li><strong>Systemet upptäcker avvikelser</strong><span>förändringar fångas upp</span></li>
+        <li><strong>Kunden får en varning</strong><span>och kan agera i tid</span></li>
+      </ol>
+      <div class="meta"><span>06 · Flöde</span><div class="progress"></div></div>
+    </section>
+
+    <section class="slide center-content" data-title="Övervakning">
+      <div class="eyebrow">Övervakning</div>
+      <h2>Rätt information i rätt tid</h2>
+      <div class="grid six">
+        <article class="chip">Fukt</article>
+        <article class="chip">Temperatur</article>
+        <article class="chip">Vattennivå</article>
+        <article class="chip">Batterihälsa</article>
+        <article class="chip">Rörelser</article>
+        <article class="chip">Teknisk status</article>
+      </div>
+      <div class="meta"><span>07 · Information</span><div class="progress"></div></div>
+    </section>
+
+    <section class="slide scenario-value-slide value-slide" data-title="Kundvärde">
+      <div class="eyebrow">Kundvärde</div>
+      <h2>Mer trygghet - Tidigare upptäckt - Mindre risk</h2>
+      <div class="scenario-value-combo">
+        <div class="grid value-cards-row">
+          <article class="card"><h3>Ökad trygghet</h3><p>Kunden kan följa båtens status även på distans.</p></article>
+          <article class="card"><h3>Tidigare upptäckt</h3><p>Avvikelser kan uppmärksammas innan de växer.</p></article>
+          <article class="card"><h3>Minskad risk</h3><p>Förebyggande åtgärder kan minska risken för kostsamma skador.</p></article>
+        </div>
+        <div class="timeline-label">Så skapas värdet i praktiken</div>
+        <div class="timeline">
+          <div><span>1</span>Ovanlig rörelse registreras</div>
+          <div><span>2</span>Varning skickas</div>
+          <div><span>3</span>Kunden agerar</div>
+          <div><span>4</span>Skada undviks</div>
+        </div>
+      </div>
+      <div class="meta"><span>08 · Kundvärde</span><div class="progress"></div></div>
+    </section>
+
+    <section class="slide center-content" data-title="Målgrupp">
+      <div class="eyebrow">Målgrupp</div>
+      <h2>Från en tydlig start till stora möjligheter</h2>
+      <div class="grid">
+        <article class="card"><h3>1 · Privatkunder</h3><p>Privata segelbåtsägare som vill övervaka sin båt på distans.</p></article>
+        <article class="card"><h3>2 · Organisationer</h3><p>Segelklubbar och mindre hamnar med behov av samlad överblick.</p></article>
+        <article class="card"><h3>3 · Expansion</h3><p>Båttillverkare och försäkringsbolag.</p></article>
+      </div>
+      <div class="meta"><span>09 · Målgrupp</span><div class="progress"></div></div>
+    </section>
+
+    <section class="slide center-content" data-title="Affärsmodell">
+      <div class="eyebrow">Affärsmodell</div>
+      <h2>Affärsmodell</h2>
+      <div class="grid four">
+        <article class="card"><h3>Installation</h3><p>Sensorer och uppstart.</p></article>
+        <article class="card"><h3>Abonnemang</h3><p>Dashboard, varningar och support.</p></article>
+        <article class="card"><h3>Konsulttjänster</h3><p>Analys och anpassning.</p></article>
+        <article class="card"><h3>Underhåll</h3><p>Service och vidareutveckling.</p></article>
+      </div>
+      <div class="meta"><span>10 · Affärsmodell</span><div class="progress"></div></div>
+    </section>
+
+    <section class="slide center-content" data-title="Paket">
+      <div class="eyebrow">Paketering</div>
+      <h2>Paketlösningar</h2>
+      <div class="pricing package-comparison package-comparison-two">
+        <article class="card package-card">
+          <h3>Standard</h3>
+          <div class="package-row"><span>Sensorer & teknik</span><p>3-5 sensorer med möjlighet att byggas ut, dashboard, automatiska varningar, fleranvändaråtkomst och rapportering.</p></div>
+          <div class="package-row"><span>Konsultstöd</span><p>Behovsanalys, installation, support och regelbunden uppföljning.</p></div>
+        </article>
+        <article class="card package-card">
+          <h3>Premium</h3>
+          <div class="package-row"><span>Sensorer & teknik</span><p>Fullständig sensoruppsättning och anpassad konfiguration.</p></div>
+          <div class="package-row"><span>Konsultstöd</span><p>Allt i Standard, dedikerad kontaktperson och proaktivt underhåll.</p></div>
+        </article>
+      </div>
+      <div class="meta"><span>11 · Paket</span><div class="progress"></div></div>
+    </section>
+
+    <section class="slide differentiation-slide" data-title="Differentiering">
+      <div class="eyebrow">Differentiering</div>
+      <h2>Vi levererar trygghet som en tjänst</h2>
+      <div class="differentiation-layout">
+        <div class="diff-cards">
+          <article class="card diff-card"><h3>Hårdvara som tjänst</h3><p>Sensorerna ingår i abonnemanget. Kunden slipper äga, underhålla eller byta ut utrustningen själv.</p></article>
+          <article class="card diff-card"><h3>Långsiktigt konsultstöd</h3><p>Vi hjälper kunden från behovsanalys och installation till support, uppföljning och vidareutveckling.</p></article>
+          <article class="card diff-card"><h3>Proaktiva insikter</h3><p>Vi analyserar mönster i kundens data och hjälper verksamheten att agera innan små problem blir stora.</p></article>
+        </div>
+      </div>
+      <div class="meta"><span>12 · Differentiering</span><div class="progress"></div></div>
+    </section>
+
+    <section class="slide positioning-slide" data-title="Positionering">
+      <div class="eyebrow">Positionering</div>
+      <h2>En konsultdriven maritim helhetslösning</h2>
+      <div class="positioning-layout">
+        <div class="position-map" role="img" aria-label="Positioneringsdiagram med Ægir">
+          <img src="position.png" alt="" style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; display:block;">
+        </div>
+        <article class="card position-explain">
+          <h3>Varför dessa parametrar?</h3>
+          <p>Parametrarna visar vår viktigaste skillnad mot traditionell produktförsäljning. Ægir kombinerar maritim teknik med anpassning, löpande support och proaktiva insikter.</p>
+        </article>
+      </div>
+      <div class="meta"><span>13 · Positionering</span><div class="progress"></div></div>
+    </section>
+
+    <section class="slide competitor-slide" data-title="Konkurrentanalys">
+      <div class="eyebrow">Konkurrentanalys</div>
+      <h2>Konkurrentanalys</h2>
+      <div class="competitor-table competitor-table-six compact-competitor-table">
+        <div class="table-head">Företag</div>
+        <div class="table-head">Typ</div>
+        <div class="table-head">Prisnivå</div>
+        <div class="table-head">Nisch/anpassning</div>
+        <div class="table-head">Styrka</div>
+        <div class="table-head">Svaghet/risk</div>
+
+        <div class="aegir-row"><strong>Ægir</strong></div>
+        <div class="aegir-row">IoT-konsult</div>
+        <div class="aegir-row">699-1199 kr/mån</div>
+        <div class="aegir-row"><strong>Mycket hög</strong></div>
+        <div class="aegir-row">Marin nisch<br>Garmin-partner<br>Konsultstöd</div>
+        <div class="aegir-row">Extern hårdvara<br>Små resurser<br>Nyckelkompetens</div>
+
+        <div><strong>Sensar Marine</strong></div>
+        <div>Produktbolag</div>
+        <div>4000-5000 kr<br>+ 200 kr/mån</div>
+        <div><strong>Hög</strong> nisch<br>låg anpassning</div>
+        <div>Färdig marin produkt</div>
+        <div>Lite konsultstöd<br>mindre anpassning</div>
+
+        <div><strong>Axians</strong></div>
+        <div>IoT-konsult</div>
+        <div>Offert<br>700-1600 kr/tim</div>
+        <div>Låg nisch<br><strong>hög</strong> anpassning</div>
+        <div>Teknisk kompetens<br>IoT-erfarenhet</div>
+        <div>Saknar marin spets<br>dyrare för små kunder</div>
+
+        <div><strong>Siemens</strong></div>
+        <div>Systemleverantör</div>
+        <div>Enterprise/offert<br>50 000-100 000+ kr/år</div>
+        <div>Låg nisch<br>medel anpassning</div>
+        <div>Leveranskapacitet<br>etablerade system</div>
+        <div>För stort och dyrt<br>låg marin nisch</div>
+      </div>
+      <div class="meta"><span>14 · Konkurrentanalys</span><div class="progress"></div></div>
+    </section>
+
+    <section class="slide swot-slide" data-title="SWOT">
+      <div class="eyebrow">SWOT</div>
+      <h2>SWOT</h2>
+      <div class="swot swot-detailed">
+        <article class="card swot-strengths swot-soft-green"><h3>Styrkor</h3><p class="subtle">Interna fördelar</p><ul><li>Kundanpassade IoT-lösningar och olika paketlösningar.</li><li>Branschkunskap och expertis för specifika målgrupper.</li><li>Sensorer, dashboard och varningar i samma lösning.</li><li>Helhetslösning från behovsanalys till support.</li><li>Möjlighet att bygga långsiktiga kundrelationer.</li></ul></article>
+        <article class="card swot-weaknesses swot-soft-beige"><h3>Svagheter</h3><p class="subtle">Interna nackdelar</p><ul><li>Ingen egen hårdvara skapar beroende av externa leverantörer.</li><li>Litet bolag med begränsade resurser för marknadsföring.</li><li>Beroende av nyckelpersoners kompetens.</li><li>Långsammare tillväxt i uppstartsfasen.</li><li>Behov av löpande underhåll och hänsyn till produktens livslängd.</li></ul></article>
+        <article class="card swot-opportunities swot-soft-blue"><h3>Möjligheter</h3><p class="subtle">Externa faktorer</p><ul><li>Samarbete med båttillverkare och segelklubbar.</li><li>Relationsbyggande partnerskap.</li><li>Samarbete med hårdvaruleverantörer.</li><li>Återkommande intäkter genom abonnemang.</li><li>Expansion till fler marina verksamheter.</li></ul></article>
+        <article class="card swot-threats swot-soft-red"><h3>Hot</h3><p class="subtle">Externa faktorer</p><ul><li>Hårdvaruleverantörer kan börja erbjuda liknande tjänster.</li><li>Begränsad marknad.</li><li>Efterfrågan kan påverkas av konjunkturen eftersom båtliv är ett fritidsintresse.</li></ul></article>
+      </div>
+      <div class="meta"><span>15 · SWOT</span><div class="progress"></div></div>
+    </section>
+
+    <section class="slide pest-slide pest-slide-primary" data-title="PESTLIED">
+      <div class="eyebrow">PESTLIED</div>
+      <h2>PESTLIED</h2>
+      <div class="pest-table">
+        <div class="pest-head">Faktor</div><div class="pest-head">Hur faktorn kan påverka företaget</div><div class="pest-head">Potentiell inverkan</div>
+        <div class="pest-factor">Political</div><div>Krig, konflikter och pandemier kan påverka tillgången till hårdvara samt leverans- och fraktkostnader. Kommunala beslut kring marina miljöer kan påverka verksamheten.</div><div><span class="badge high">Hög</span></div>
+        <div class="pest-factor">Economic</div><div>Lågkonjunktur och ränteökningar kan påverka försäljningen samt kundernas vilja att betala för löpande abonnemang. Säsongsvariationer kan påverka försäljningen.</div><div><span class="badge high">Hög</span></div>
+        <div class="pest-factor">Social</div><div>Förändrade köpbeteenden och trender kan påverka efterfrågan både positivt och negativt. En äldre målgrupp kan uppleva ett motstånd mot ny teknik.</div><div><span class="badge medium">Medel</span></div>
+        <div class="pest-factor">Technological</div><div>Konkurrenters teknikutveckling kan skapa ökad konkurrens. Ny teknik, nya konfigurationer och nya lösningar utvecklas snabbt. Problem med uppkoppling och internet kan påverka tjänstens funktion.</div><div><span class="badge high">Hög</span></div>
+      </div>
+      <div class="meta"><span>16 · PESTLIED</span><div class="progress"></div></div>
+    </section>
+
+    <section class="slide pest-slide" data-title="PESTLIED fortsättning">
+      <div class="eyebrow">PESTLIED</div>
+      <h2>PESTLIED</h2>
+      <div class="pest-table">
+        <div class="pest-head">Faktor</div><div class="pest-head">Hur faktorn kan påverka företaget</div><div class="pest-head">Potentiell inverkan</div>
+        <div class="pest-factor">Legal</div><div>Framtida lagstiftning kan påverka möjligheten att samla in och analysera data, exempelvis rörelse- och positionsdata.</div><div><span class="badge medium">Medel</span></div>
+        <div class="pest-factor">International</div><div>EU-regler och internationell lagstiftning kan påverka expansion till nya marknader. Förändrade tullar och handelshinder kan påverka kostnaden för hårdvara och leveranser.</div><div><span class="badge high">Hög</span></div>
+        <div class="pest-factor">Environmental</div><div>Klimatförändringar och extremväder kan påverka båtlivet och samtidigt öka behovet av övervakning. Kundernas hållbarhetskrav kan påverka val av teknik och tjänster. Hårdvaran behöver utformas med hänsyn till känsliga marina miljöer.</div><div><span class="badge high">Hög</span></div>
+        <div class="pest-factor">Demographic</div><div>En åldrande målgrupp kan påverka efterfrågan och öka behovet av lättanvänd teknik. Bostadstrender och minskad tillgång till båtar och hamnar kan påverka marknaden. Förändrade livsstilar och kostnaden för båtliv kan påverka efterfrågan.</div><div><span class="badge medium">Medel</span></div>
+      </div>
+      <div class="meta"><span>17 · PESTLIED</span><div class="progress"></div></div>
+    </section>
+
+    <section class="slide mission-vision-slide" data-title="Mission och vision">
+      <div class="eyebrow">Vision, Mission och Värderingar</div>
+      <h2>VMV</h2>
+      <div class="mission-vision">
+        <article class="mission-panel"><h3>Vision</h3><p>Att skapa ett tryggare och mer intelligent båtliv genom teknik som gör det enklare att förstå, förebygga och agera.</p></article>
+        <div class="mission-divider values-divider" aria-hidden="true"></div>
+        <article class="mission-panel"><h3>Mission</h3><p>Vi hjälper segelbåtsägare att upptäcka risker tidigt, förebygga skador och känna större trygghet genom smart och lättillgänglig övervakning av båten.</p></article>
+        <div class="mission-divider" aria-hidden="true"></div>
+        <article class="mission-panel values-panel"><h3>Värderingar</h3><ul><li>Trygghet</li><li>Pålitlighet</li><li>Kundfokus</li><li>Enkelhet</li><li>Långsiktighet</li></ul></article>
+      </div>
+      <div class="mission-orbit" aria-hidden="true"></div>
+      <div class="meta"><span>18 · Vision, Mission och Värderingar</span><div class="progress"></div></div>
+    </section>
+
+    <section class="slide" data-title="Avslutning">
+      <div class="eyebrow">Avslutning</div>
+      <div class="hero closing-hero emblem-only">
+        <div class="emblem-wrap" aria-hidden="true">
+          <img class="hero-emblem closing-emblem" src="Aegir_Emblem.png" alt="">
+        </div>
+      </div>
+      <div class="meta"><span>19 · Avslutning</span><div class="progress"></div></div>
+    </section>
+  </main>
+
+  <script src="aegir-presentation.js"></script>
+</body>
+</html>
